@@ -44,6 +44,7 @@ public class MainActivity extends Activity implements TextWatcher {
         textInputLayout1.setHint("密码");
         editText.setOnEditorActionListener(ActionListener.newInstance(this));
 
+
         linearLayout = (LinearLayout) findViewById(R.id.ll);
         childCount = linearLayout.getChildCount();
         texts = new EditText[childCount];
