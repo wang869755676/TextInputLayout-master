@@ -1,0 +1,475 @@
+[
+    {
+        "outputFile": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 50,
+                    "endOffset": 152
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 50,
+                        "endOffset": 152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 157,
+                    "endColumn": 49,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 49,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 207,
+                    "endColumn": 50,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 50,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 39,
+                    "endOffset": 293
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 39,
+                        "endOffset": 293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 298,
+                    "endColumn": 42,
+                    "endOffset": 336
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 42,
+                        "endOffset": 336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 341,
+                    "endColumn": 45,
+                    "endOffset": 382
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 341,
+                        "endColumn": 45,
+                        "endOffset": 382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 387,
+                    "endColumn": 46,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 387,
+                        "endColumn": 46,
+                        "endOffset": 429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 434,
+                    "endColumn": 50,
+                    "endOffset": 480
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 434,
+                        "endColumn": 50,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 485,
+                    "endColumn": 43,
+                    "endOffset": 524
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 485,
+                        "endColumn": 43,
+                        "endOffset": 524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 529,
+                    "endColumn": 40,
+                    "endOffset": 565
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 529,
+                        "endColumn": 40,
+                        "endOffset": 565
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 570,
+                    "endColumn": 42,
+                    "endOffset": 608
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 570,
+                        "endColumn": 42,
+                        "endOffset": 608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 613,
+                    "endColumn": 41,
+                    "endOffset": 650
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 613,
+                        "endColumn": 41,
+                        "endOffset": 650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 655,
+                    "endColumn": 44,
+                    "endOffset": 695
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 655,
+                        "endColumn": 44,
+                        "endOffset": 695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 700,
+                    "endColumn": 43,
+                    "endOffset": 739
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 700,
+                        "endColumn": 43,
+                        "endOffset": 739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 744,
+                    "endColumn": 39,
+                    "endOffset": 779
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 744,
+                        "endColumn": 39,
+                        "endOffset": 779
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 944,
+                    "endColumn": 50,
+                    "endOffset": 990
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 944,
+                        "endColumn": 50,
+                        "endOffset": 990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 995,
+                    "endColumn": 55,
+                    "endOffset": 1046
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 995,
+                        "endColumn": 55,
+                        "endOffset": 1046
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1051,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1316
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1051,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1321,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 2104
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1321,
+                        "endLine": 42,
+                        "endColumn": 12,
+                        "endOffset": 2104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2109,
+                    "endLine": 51,
+                    "endColumn": 12,
+                    "endOffset": 2623
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2109,
+                        "endLine": 51,
+                        "endColumn": 12,
+                        "endOffset": 2623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2628,
+                    "endLine": 60,
+                    "endColumn": 12,
+                    "endOffset": 3190
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2628,
+                        "endLine": 60,
+                        "endColumn": 12,
+                        "endOffset": 3190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3195,
+                    "endLine": 64,
+                    "endColumn": 12,
+                    "endOffset": 3409
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3195,
+                        "endLine": 64,
+                        "endColumn": 12,
+                        "endOffset": 3409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 3414,
+                    "endLine": 80,
+                    "endColumn": 12,
+                    "endOffset": 4209
+                },
+                "from": {
+                    "file": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3414,
+                        "endLine": 80,
+                        "endColumn": 12,
+                        "endOffset": 4209
+                    }
+                }
+            }
+        ]
+    }
+]

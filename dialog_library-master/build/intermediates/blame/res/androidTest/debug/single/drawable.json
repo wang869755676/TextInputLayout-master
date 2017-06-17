@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\alert_btn_right_pressed.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\alert_btn_right_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_3.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_3.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_top_pressed.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_top_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_0.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_0.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\alert_bg.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\alert_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\trans_bg.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\trans_bg.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_bottom_pressed.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_bottom_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\alertdialog_right_selector.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\alertdialog_right_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\alertdialog_left_selector.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\alertdialog_left_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_bottom_normal.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_bottom_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\alert_btn_single_pressed.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\alert_btn_single_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_top_selector.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_top_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\alert_btn_left_pressed.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\alert_btn_left_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_6.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_6.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_10.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_10.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\alertdialog_single_selector.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\alertdialog_single_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_single_pressed.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_single_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_11.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_11.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_7.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_7.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_single_normal.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_single_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_top_normal.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_top_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_2.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_2.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_middle_normal.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_middle_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_middle_selector.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_middle_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_5.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_5.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_bottom_selector.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_bottom_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_8.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_8.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_4.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_4.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_middle_pressed.9.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_middle_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\actionsheet_single_selector.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\actionsheet_single_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_1.png",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_1.png"
+    }
+]

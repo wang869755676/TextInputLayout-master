@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\actionsheet_dialog_out.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\anim\\actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\actionsheet_dialog_in.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\anim\\actionsheet_dialog_in.xml"
+    }
+]

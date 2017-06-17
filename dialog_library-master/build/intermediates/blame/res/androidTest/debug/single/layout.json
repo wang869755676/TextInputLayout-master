@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\load_view.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\layout\\load_view.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\progress_custom.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\layout\\progress_custom.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\view_alertdialog.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\layout\\view_alertdialog.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_dialog.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_dialog.xml"
+    },
+    {
+        "merged": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\view_actionsheet.xml",
+        "source": "E:\\test\\TextInputLayout-master\\dialog_library-master\\build\\intermediates\\bundles\\debug\\res\\layout\\view_actionsheet.xml"
+    }
+]
