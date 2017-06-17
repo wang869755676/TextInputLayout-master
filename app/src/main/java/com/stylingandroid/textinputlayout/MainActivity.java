@@ -12,6 +12,11 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+//import com.tapadoo.alerter.Alerter;
+
+import com.aplibs.Alerter;
 
 import java.lang.ref.WeakReference;
 
@@ -28,6 +33,7 @@ public class MainActivity extends Activity implements TextWatcher {
     private LinearLayout linearLayout;
     private EditText[] texts;
     private int childCount;
+    private PasswordEditText pas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +98,8 @@ public class MainActivity extends Activity implements TextWatcher {
             });
         }
 
+        pas= (PasswordEditText) findViewById(R.id.pas);
+
     }
 
     private boolean shouldShowError() {
@@ -129,6 +137,16 @@ public class MainActivity extends Activity implements TextWatcher {
         textInputLayout.setError(" ");
         textInputLayout.setErrorEnabled(true);
         editText.setAnimation(AnimationUtils.loadAnimation(this, R.anim.sharkle));
+        ToastUtils.showToast(getApplicationContext(),pas.getText());
+
+        Alerter.create(this)
+                .setTitle("    Alert text...          ")
+                .setBackgroundColor(R.color.sa_accent)
+                .setTitleSize(25)
+                .setTitleCenter()
+                .setTitleColor(R.color.error_text_colour)
+                .hideIcon()
+                .show();
     }
 
     private static final class ActionListener implements TextView.OnEditorActionListener {
