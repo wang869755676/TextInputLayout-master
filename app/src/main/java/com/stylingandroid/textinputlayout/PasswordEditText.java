@@ -9,6 +9,7 @@ import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -24,6 +25,8 @@ public class PasswordEditText extends LinearLayout {
     private int space;
     private LinearLayout.LayoutParams params;
     private EditText[] texts;
+    private StringBuilder stringBuilder;
+    private Context context;
 
     public PasswordEditText(Context context) {
         super(context);
@@ -41,6 +44,7 @@ public class PasswordEditText extends LinearLayout {
     }
 
     private void init(Context context, AttributeSet attrs) {
+        this.context=context;
         if (attrs != null) {
             TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.PasswordEditText);
             backDrawableRes = typedArray.getResourceId(R.styleable.PasswordEditText_backDrawable, -1);
@@ -64,7 +68,7 @@ public class PasswordEditText extends LinearLayout {
             }
             tempEditText = new EditText(context);
             tempEditText.setLayoutParams(params);
-           // tempEditText.setCursorVisible(false);
+            // tempEditText.setCursorVisible(false);
             tempEditText.setFilters(new InputFilter[]{new InputFilter.LengthFilter(1)}); //最大输入长度
             tempEditText.setInputType(InputType.TYPE_CLASS_NUMBER);
             if (backDrawableRes != -1) {
@@ -115,20 +119,61 @@ public class PasswordEditText extends LinearLayout {
                 }
             });
             if (finalJ == 0) {
-                texts[finalJ ].setFocusable(true);
-                texts[finalJ ].setFocusableInTouchMode(true);
-                texts[finalJ ].requestFocus();
+                texts[finalJ].setFocusable(true);
+                texts[finalJ].setFocusableInTouchMode(true);
+                texts[finalJ].requestFocus();
             }
             addView(texts[finalJ]);
         }
     }
 
     public String getText() {
-        StringBuilder stringBuilder = new StringBuilder();
-        for (int i = 0; i < num; i++) {
-            stringBuilder.append(texts[i].getText().toString());
-        }
+        joinString();
         return stringBuilder.toString();
     }
 
+    private void joinString() {
+        if (stringBuilder == null)
+            stringBuilder = new StringBuilder();
+        else {
+            stringBuilder.setLength(0);
+        }
+        for (int i = 0; i < num; i++) {
+            stringBuilder.append(texts[i].getText().toString());
+        }
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        return super.dispatchTouchEvent(ev);
+    }
+
+    @Override
+    public boolean onInterceptTouchEvent(MotionEvent ev) {
+        return true;
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        if (event.getAction() == MotionEvent.ACTION_DOWN) {
+            joinString();
+            if (stringBuilder.length() == 0) {
+                texts[0].setFocusable(true);
+                texts[0].setFocusableInTouchMode(true);
+                texts[0].requestFocus();
+                KeyBoardUtil.openKeybord(texts[0],context );
+            }else if (stringBuilder.length() == num) {
+                texts[num-1].setFocusable(true);
+                texts[num-1].setFocusableInTouchMode(true);
+                texts[num-1].requestFocus();
+                KeyBoardUtil.openKeybord(texts[num-1],context );
+            }else{
+                texts[stringBuilder.length()].setFocusable(true);
+                texts[stringBuilder.length()].setFocusableInTouchMode(true);
+                texts[stringBuilder.length()].requestFocus();
+                KeyBoardUtil.openKeybord(texts[stringBuilder.length()],context );
+            }
+        }
+        return super.onTouchEvent(event);
+    }
 }
