@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordEditText">
+        <attr name="num" format="integer"></attr>  // 方格的数量
+        <attr name="backDrawable" format="reference"></attr> // 方格的背景
+        <attr name="squareWidth" format="dimension"></attr> // 方格的长度
+        <attr name="squareSpace" format="dimension"></attr> // 方格之间的间隙
+    </declare-styleable>
+</resources>
