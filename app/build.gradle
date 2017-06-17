@@ -21,6 +21,8 @@ android {
 
 dependencies {
     compile 'com.android.support:design:24.0.0'
+    // compile 'com.tapadoo.android:alerter:1.0.8'
+    compile project(':aplibs')
 }
 
 
