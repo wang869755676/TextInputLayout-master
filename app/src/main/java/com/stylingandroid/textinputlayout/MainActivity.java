@@ -1,6 +1,7 @@
 package com.stylingandroid.textinputlayout;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.text.Editable;
@@ -12,13 +13,14 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-//import com.tapadoo.alerter.Alerter;
-
-import com.aplibs.Alerter;
+import com.cpf.library.ActionSheetDialog;
+import com.cpf.library.AlertDialog;
+import com.cpf.library.ShapeLoadingDialog;
 
 import java.lang.ref.WeakReference;
+
+//import com.tapadoo.alerter.Alerter;
 
 public class MainActivity extends Activity implements TextWatcher {
 
@@ -71,11 +73,11 @@ public class MainActivity extends Activity implements TextWatcher {
                 @Override
                 public void afterTextChanged(Editable editable) {
 
-                    if (editable.length() == 1  && finalJ < childCount - 1 &&texts[finalJ + 1] != null) {
+                    if (editable.length() == 1 && finalJ < childCount - 1 && texts[finalJ + 1] != null) {
                         texts[finalJ + 1].setFocusable(true);
                         texts[finalJ + 1].setFocusableInTouchMode(true);
                         texts[finalJ + 1].requestFocus();
-                    } else if (editable.length() == 0  && finalJ > 0 && texts[finalJ - 1] != null) {
+                    } else if (editable.length() == 0 && finalJ > 0 && texts[finalJ - 1] != null) {
                         texts[finalJ - 1].setFocusable(true);
                         texts[finalJ - 1].setFocusableInTouchMode(true);
                         texts[finalJ - 1].requestFocus();
@@ -85,12 +87,12 @@ public class MainActivity extends Activity implements TextWatcher {
             texts[finalJ].setOnKeyListener(new View.OnKeyListener() {
                 @Override
                 public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
-                    if (keyCode==KeyEvent.KEYCODE_DEL){
-                        if ( texts[finalJ].getText().length() == 0  && finalJ > 0 && texts[finalJ - 1] != null) {
+                    if (keyCode == KeyEvent.KEYCODE_DEL) {
+                        if (texts[finalJ].getText().length() == 0 && finalJ > 0 && texts[finalJ - 1] != null) {
                             texts[finalJ - 1].setFocusable(true);
                             texts[finalJ - 1].setFocusableInTouchMode(true);
                             texts[finalJ - 1].requestFocus();
-                            texts[finalJ-1].setText("");
+                            texts[finalJ - 1].setText("");
                         }
                     }
                     return false;
@@ -98,7 +100,7 @@ public class MainActivity extends Activity implements TextWatcher {
             });
         }
 
-        pas= (PasswordEditText) findViewById(R.id.pas);
+        pas = (PasswordEditText) findViewById(R.id.pas);
 
     }
 
@@ -137,16 +139,53 @@ public class MainActivity extends Activity implements TextWatcher {
         textInputLayout.setError(" ");
         textInputLayout.setErrorEnabled(true);
         editText.setAnimation(AnimationUtils.loadAnimation(this, R.anim.sharkle));
-        ToastUtils.showToast(getApplicationContext(),pas.getText());
+        ToastUtils.showToast(getApplicationContext(), pas.getText());
 
-        Alerter.create(this)
+      /*  Alerter.create(this)
                 .setTitle("    Alert text...          ")
                 .setBackgroundColor(R.color.sa_accent)
                 .setTitleSize(25)
                 .setTitleCenter()
                 .setTitleColor(R.color.error_text_colour)
                 .hideIcon()
-                .show();
+                .show();*/
+        /*new ActionSheetDialog(this)
+                .builder()
+                .setCancelable(false)
+                .setCanceledOnTouchOutside(false)
+                .setTitle("lalala")
+                .addSheetItem("删除", ActionSheetDialog.SheetItemColor.Blue, new ActionSheetDialog.OnSheetItemClickListener() {
+                    @Override
+                    public void onClick(int which) {
+
+                    }
+                }).show();*/
+
+     /*   new AlertDialog(this)
+                .builder()
+                .setTitle("提示")
+                .setMsg("要放弃编辑的内容吗？")
+                .setPositiveButton("确认放弃", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                    }
+                })
+                .setNegativeButton("取消", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                    }
+                })
+                .show();*/
+
+        //初始化对话框<br>
+        ShapeLoadingDialog loadingDialog = new ShapeLoadingDialog(this);
+        loadingDialog.setLoadingText("加载中...");
+//显示
+        loadingDialog.show();
+        //隐藏
+        loadingDialog.dismiss();
     }
 
     private static final class ActionListener implements TextView.OnEditorActionListener {
